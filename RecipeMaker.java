@@ -9,7 +9,7 @@ public class RecipeMaker {
 	@SuppressWarnings("null")
 	public static void main(String[] args) throws Exception {
 
-		System.out.println("David Dalmatoff");
+		System.out.println("Created by David Dalmatoff");
 		Scanner myScanner = new Scanner(System.in);
 		System.out.println("Please enter the URL: ");
 		String URL;
@@ -28,7 +28,6 @@ public class RecipeMaker {
 			//URL oracle = new URL("http://allrecipes.com/recipe/apple-pie-by-grandma-ople/");
 			//BufferedReader in = new BufferedReader(new InputStreamReader(oracle.openStream()));
 			BufferedReader in = new BufferedReader(new InputStreamReader(oracle.openStream()));
-
 
 
 			int print = 0;
@@ -50,7 +49,6 @@ public class RecipeMaker {
 					System.out.println("");
 					System.out.println("");
 					System.out.println("Ingredients:");
-
 				}
 
 			// INGREDIENTS:
@@ -77,8 +75,6 @@ public class RecipeMaker {
 					System.out.println(inputLine.substring(inputLine.indexOf("\">")+2,inputLine.indexOf("</")));
 				}
 
-
-
 			// INGREDIENTS
 
 
@@ -94,6 +90,4 @@ public class RecipeMaker {
 			System.exit(0);
 		}
 	}
-
-
 }
