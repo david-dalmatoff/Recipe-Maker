@@ -1,4 +1,4 @@
-/* Purpose Statement	: 
+/* Purpose Statement	: Program utilizes I/O java library to process web-based data into an array-based list.
  * Author		: David Dalmatoff
  * File	Name	: RecipeMaker.java
  * Date Started	: 
